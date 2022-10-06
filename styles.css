@@ -461,3 +461,89 @@ h3{
     align-items: center;
     justify-content: center;
 }
+
+.imagen_unirse{
+    margin-top: 70px;
+    margin-left: 60px ;
+    width: 460px;
+    height: 340px;
+}
+
+.tip_unirse{    
+    display: block;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:var(--azulclaro);
+    width: 1000px;
+    height:500px;
+}
+
+.tip_unirse1{    
+    display: flex;
+}
+
+.form_unirse{
+    background-color: var(--azuloscu);
+    width: 270px;
+    height: 35px;
+    font-size: 20px ;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;   
+    text-align: center; 
+}
+.formulario_unirse{
+    margin-left: 100px;
+    
+}
+
+.ingreso_uni{
+    background-color: var(--gris);
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-left: 670px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton_unirse{
+    background-color: var(--azuloscu);
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-decoration: underline;
+}
+
+.contenido_unirse{
+    text-align: center;
+    align-content:center ;
+    height: 800px;
+    margin-top: -300px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.titulo_unirse{
+    font-size: 35px;
+    /* font-family: var(--titulos); */
+    font-weight: bolder;
+}
