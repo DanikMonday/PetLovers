@@ -39,7 +39,7 @@
 }
 
 .quienes{
-    font-family:var(--titulos);
+    /* font-family:var(--titulos); */
     font-size: 40px;
     text-align: left;
 }
@@ -143,9 +143,9 @@ p{
 
 .contenidoaprender{
     text-align: center;
-    display:inline-block;
+
     align-content:center ;
-    height: 2200px;
+    height: 2400px;
     margin-top: -300px;
     margin-left: 200px;
     align-items: center;
@@ -210,6 +210,7 @@ p{
 
 .titulotips{
     text-align: center;
+    font-size: 35px;
 }
 
 .imagentips{
@@ -217,4 +218,246 @@ p{
     margin-left: 25px ;
     width: 340px;
     height: 260px;
+}
+
+.contenidoadopcion{
+    text-align: center;
+    display:flex;
+    align-content:center ;
+    height: 900px;
+    margin-top: -200px;
+    margin-left: 100px;
+    /* align-items: center; */
+}
+
+.titulos3{
+    font-weight: bolder;
+
+
+}
+
+.adoptar1{
+    display: block;
+    text-align: center;
+    align-content:center ;
+    margin-top: -100px;
+    margin-left: 200px;
+    align-items:center ;
+}
+
+.adoptar2{
+ 
+    border: 2px solid;
+    border-radius: 15px;
+    margin-right: 100px;
+    background-color:var(--gris);
+    width: 360px;
+    height: 600px;
+   padding-top: 30px;
+}
+
+.ofrecer1{
+    display: block;
+    text-align: center;
+    align-content:center ;
+    margin-top: -100px;
+}
+
+.ofrecer2{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:var(--gris);
+    width: 360px;
+    height: 680px;
+    padding-top: 20px;
+}
+
+.titulo3{
+    font-size: 30px;
+    font-family: var(--titulos);
+    margin-right: 100px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: var(--titulos);
+}
+
+.adoptarformulario{
+    background-color: var(--azuloscu);
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-decoration: underline;
+}
+
+.formofrecer{
+    background-color: var(--azuloscu);
+    width: 270px;
+    height: 35px;
+    font-size: 20px ;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;   
+    text-align: center; 
+}
+
+.subeimagen{
+   margin-top: -20px; 
+}
+
+.boton_ofrecer{
+    background-color: var(--azuloscu);
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-decoration: underline;
+}
+
+.contenido_perdidos{
+    text-align: center;
+    display:flex;
+    align-content:center ;
+    height: 800px;
+    margin-top: -200px;
+    margin-left: 100px;
+    /* align-items: center; */
+}
+
+.publicar_perdido{
+    display: block;
+    text-align: center;
+    align-content:center ;
+    margin-top: -100px;
+}
+
+.unperdido{
+    display: block;
+    text-align: center;
+    align-content:center ;
+    margin-top: -100px;
+    margin-left: 100px;
+    align-items:center ;
+    width: 360px;
+    height: 600px;
+}
+
+.titulo4{
+    font-size: 30px;
+    font-family: var(--titulos);
+    margin-left: 10px;
+}
+
+.publicar_perdido2{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:var(--gris);
+    width: 360px;
+    height: 650px;
+    padding-top: 20px;
+}
+
+.unperdido2{
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:var(--gris);
+    width: 360px;
+    height: 500px;
+    padding-top: 40px; 
+}
+
+.contenido_voluntariado{
+    text-align: center;
+    align-content:center ;
+    height: 2200px;
+    margin-top: -300px;
+    margin-left: 200px;
+    align-items: center;
+}
+.titulo_voluntariado{
+    font-size: 35px;
+    /* font-family: var(--titulos); */
+    font-weight: bolder;
+}
+
+.tip_vol{    
+    display: block;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:var(--azulclaro);
+    width: 1000px;
+    height: 360px;
+}
+
+.ingreso_vol{
+    background-color: var(--gris);
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tip_vol1{    
+    display: flex;
+}
+
+.sitio_vol{
+    text-decoration: none;
+    color: black;
+    margin:0;
+  }
+
+  .p_vol{
+    display:inline;
+    font-size: 25px;
+    font-family: var(--titulos);
+    text-align: justify;
+    padding-top:60px;
+    margin-right: 20px;
+    
+}
+
+.unirme{
+    background-color: var(--gris);
+    width: 270px;
+    height: 40px;
+    font-size: 30px;
+    font-family: var(--titulos);
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-left: 1100px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
